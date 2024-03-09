@@ -1,0 +1,53 @@
+
+.link {
+    color:$primary-color;
+}
+
+.link:visited {
+    color:$primary-color;
+}
+.link:hover,
+.link:active,
+.link:focus
+ {
+   color: $second-color;
+}
+
+
+a {
+    color:$primary-color;
+}
+
+a:visited {
+    color:$primary-color;
+}
+
+a:hover,
+a:active,
+a:focus
+ {
+    .card__title{
+        //color: $second-color;
+        //transition: all 1;
+        &::before{
+            transform: rotate(+40deg);
+            -ms-transform:rotate(+40deg); // IE 9 
+            -moz-transform:rotate(+40deg); // Firefox 
+            -webkit-transform:rotate(+40deg); // Safari and Chrome 
+            -o-transform:rotate(+40deg); // Opera
+
+            transition: 0.3s;
+            -webkit-transition: 0.3s; // IE 9
+            -moz-transition: 0.3s; // Firefox
+            -ms-transition: 0.3s; // Safari and Chrome 
+            -o-transition: 0.3s; // Opera 
+            border: 2px solid $second-color;
+        }
+    }
+}
+
+
+body {
+    background-color: #F8F8F8;
+    color: #121212;
+}

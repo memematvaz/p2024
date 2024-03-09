@@ -1,0 +1,29 @@
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @include title-mobile;
+    padding: 12px 16px 16px;
+    filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.16));
+    a:hover{
+        filter: drop-shadow(0 20px 60px $second-color);
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .title {
+        @include title-tablet;
+        font-size: 28px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .title {
+        @include title-pc;
+        font-size: 32px;
+        font-weight: 400;
+    }
+  }
