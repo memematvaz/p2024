@@ -1,0 +1,12 @@
+@import './styles/base/reset.scss';
+
+@import './styles/core/variables';
+@import './styles/core/mixins';
+@import './styles/base/links';
+
+@import './styles/layout/header';
+@import './styles/layout/main';
+@import './styles/layout/codeprojectsList';
+@import './styles/layout/codeprojectsCard';
+@import './styles/layout/details';
+@import './styles/layout/about';

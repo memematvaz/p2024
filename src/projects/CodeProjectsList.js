@@ -1,6 +1,6 @@
 import React from 'react';
 import CodeProject from './CodeProject'
-import CODEPROJECTS from '../../services/CodeProjectsJSON';
+import CODEPROJECTS from './CodeProjectsJSON';
 import { useState, useEffect } from 'react';
 
 
@@ -13,7 +13,7 @@ const CodeProjects = () => {
     const [projects, setProjects] = useState([]);
     
     useEffect(() => {
-      setProjects(portfolio);
+      setProjects();
     }, []);
 
     useEffect(() => {
