@@ -1,0 +1,31 @@
+@mixin title-mobile {
+    font-family: $primary-font;    
+    font-size: 18px;
+    
+}
+
+@mixin title-tablet {
+    font-family: $primary-font;    
+    font-size: 24px;
+    
+}
+
+@mixin title-pc{
+    font-family: $primary-font;    
+    font-size: 30px;
+    
+}
+
+@mixin text {
+    font-family: $secondary-font;    
+    font-size: 14px;
+    color: $primary-color;
+line-height: 1.5;
+    
+}
+@mixin text-pc {
+    font-family: $secondary-font;    
+    font-size: 16px;
+    color: $primary-color;
+    line-height: 1.5;
+}
