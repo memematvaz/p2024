@@ -1,6 +1,8 @@
 import React from 'react';
+import { useRef, useEffect } from 'react';
 
 const CodeProject = (props) => {
+  const video = props.video
   return (
     <div id={props.id}>
       <a href={props.link} target="_blank" rel="noopener noreferrer">
@@ -12,11 +14,20 @@ const CodeProject = (props) => {
         </picture>
       </figure>
       :
+
+
       <figure>
-        <video className="card__img" autoPlay="autoPlay" muted loop >
+        <video className="card__img efasdfafasdfaf" autoPlay="autoPlay" muted loop key={props.videoPC}>
           <source src={props.videoPC} type="video/mp4" autoPlay="autoPlay"></source>
         </video>
       </figure>
+        
+      
+      // <figure>
+      //   <video className="card__img ee" autoPlay="autoPlay" muted loop key={props.videoPC}>
+      //     <source src={props.videoPC} type="video/mp4" autoPlay="autoPlay"></source>
+      //   </video>
+      // </figure>
       }
 
      
