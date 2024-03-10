@@ -49,8 +49,8 @@ const CODEPROJECTS =[
         classes: `card__CodeProject card__CodeProject--border`,
         imageMobile: ``,
         imagePC: ``,
-        videoMobile: `/9-videoPC.mp4`, 
-        videoPC: `/9-videoPC.mp4`, 
+        videoMobile: `./media/9-videoPC.mp4`, 
+        videoPC: `./media/9-videoPC.mp4`, 
         title: `FCAS`,
         details: {
             tools: `Figma - HTML - SASS - JS`,
@@ -63,8 +63,8 @@ const CODEPROJECTS =[
         classes: `card__CodeProject  card__CodeProject--border`,
         imageMobile: ``,
         imagePC: ``,
-        videoMobile: `/8-videoPC.mp4`, 
-        videoPC: `/8-videoPC.mp4`, 
+        videoMobile: `../media//8-videoPC.mp4`, 
+        videoPC: `../media/8-videoPC.mp4`, 
         title: `Aircraft-carrying submarines `,
         details: {
             tools: `Figma - HTML - SASS - JS`,
@@ -76,8 +76,8 @@ const CODEPROJECTS =[
     {
         category: [`all`, `layout`, `infography`],  
         classes: `card__CodeProject card__CodeProject--two card__CodeProject--top`,
-        imageMobile: `../assets/submarinooooo.jpeg`,
-        imagePC: `../assets/submarinooooo.jpeg`,
+        imageMobile: `../media/submarinooooo.jpeg`,
+        imagePC: `../media/submarinooooo.jpeg`,
         videoMobile: ``, 
         videoPC: ``, 
         title: `S-81 ISAAC PERAL`,
@@ -90,8 +90,8 @@ const CODEPROJECTS =[
     {
         category: [`all`, `layout`, 'audio'],  
         classes: `card__CodeProject card__CodeProject--two`,
-        imageMobile: `/11-imagenpc.jpeg`,
-        imagePC: `/11-imagenpc.jpeg`,
+        imageMobile: `./media/11-imagenpc.jpeg`,
+        imagePC: `./media/11-imagenpc.jpeg`,
         videoMobile: ``, 
         videoPC: ``, 
         title: `What would you have done on the day of the invasion?`,
